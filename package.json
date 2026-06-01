@@ -1,0 +1,23 @@
+{
+  "name": "ai-diff-risk-scanner",
+  "version": "0.1.0",
+  "description": "Local CLI that scans unified diffs for high-signal AI coding risks and renders a GitHub-ready Markdown report.",
+  "type": "module",
+  "bin": {
+    "ai-diff-risk-scanner": "src/ai-diff-risk-scanner/cli.js"
+  },
+  "scripts": {
+    "test": "node --test --test-concurrency=1"
+  },
+  "keywords": [
+    "ai",
+    "vibe-coding",
+    "git-diff",
+    "security",
+    "cli"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
